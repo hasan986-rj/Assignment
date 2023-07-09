@@ -10,10 +10,10 @@ let newer:string="Ikram";
 
 for(let i=0; i<guests2.length; i++ ){
     if(guests2[i]===older) {
-    console.log("Unfortunately, ${older} can't make it to dinner.");
+    console.log("Unfortunately,"+older+" can't make it to dinner.");
     guests2[i]=newer;
     }
-    console.log("Dear "+guests2[i]+"!, Tou are pleasently invited to dinner. Please join us on sunday evening.");
+    console.log("Dear "+guests2[i]+"!, You are pleasently invited to dinner. Please join us on sunday evening.");
 }
 
 console.log("Good news! We found a bigger dinner table.");
